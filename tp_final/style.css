@@ -311,6 +311,10 @@ footer h1
     article {
         margin-left 20px;
     }
+    
+    article p {
+        line-height: 1.6;
+    }
 
     aside p {
         font-size: 0.9em;
@@ -332,26 +336,24 @@ footer h1
         margin-left: 30px;
     }
 
+    #mes_photos img {
+        margin-bottom: 2px;
+    }
+
     #mes_amis {
         margin-left: 30px;
     }
 
     #mes_photos p {
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
-        width: 100%;
+        width: 80%;
     }
 
     #listes_amis {
         display: flex;
-        flex-direction: column;
-
+        flex-wrap: wrap;
     }
-
-
-
-
 }
 
 
@@ -369,14 +371,16 @@ footer h1
     nav ul li {
         margin-bottom: 15px;
         text-align: center;
-    }
-    h1 {
-        text-align: center;
+        font-size: 12px;
     }
 
-    #tweet p {
-        text-align: center;
+    #banniere_image {
+        display: none;
     }
+
+
+
+
 
     section {
         display: block;
@@ -386,10 +390,24 @@ footer h1
         margin: 10px;
     }
 
+    article h1 {
+        font-size: 16px;
+    }
+
+    article p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
     aside {
         max-width: 400px;
         margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 
+    aside p {
+        font-size: 15px;
     }
 
     footer {
@@ -399,24 +417,42 @@ footer h1
         width: 100%;
     }
 
+    h1 {
+        text-align: center;
+    }
+    
+    #tweet p {
+        text-align: center;
+    }
+
     #mes_photos p {
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
+        margin-left: 0;
         width: 100%;
     }
 
+    #mes_photos img {
+        width: 40px;
+    }
+    
+    #mes_amis {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
     #listes_amis {
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
     }
 
-/* not working
-    #baniere_description {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-*/
+
+
 
 }
